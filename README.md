@@ -1,6 +1,13 @@
 # SOR
 This program is used to calculate the smallest overlap region in Copy Number Variation(CNV) analysis. 
 
+## Compile
+Download the source files and complie them with g++ like  
+g++ *.cpp -o SOR
+
+## Command
+SOR InputFile OutputFile
+
 ## Input File
 chr1	100	300	1	S1  
 chr1	500	600	3	S1  
@@ -17,6 +24,3 @@ Column 3: end position
 Column 4: number of copies  
 Column 5: sample id  
 
-
-## Command
-SOR InputFile OutputFile

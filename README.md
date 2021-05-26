@@ -24,3 +24,6 @@ Column 3: end position
 Column 4: ratio (1: normal, less than 1 deletion, more than 1, duplication) 
 Column 5: sample id  
 
+
+# data
+The file in data directory is the CNA data we analyzed in the paper "Correlating genomic copy number alterations with clinicopathologic findings in 75 cases of hepatocellular carcinoma". 

@@ -21,6 +21,6 @@ chr2	100	200	1	S2
 Column 1: chromosome  
 Column 2: star position  
 Column 3: end position  
-Column 4: number of copies  
+Column 4: ratio (1: normal, less than 1 deletion, more than 1, duplication) 
 Column 5: sample id  
 

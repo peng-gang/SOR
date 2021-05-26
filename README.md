@@ -8,14 +8,14 @@ g++ *.cpp -o SOR
 ## Command
 SOR InputFile OutputFile
 
-## Input File
-chr1	100	300	1	S1  
-chr1	500	600	3	S1  
-chr1	700	800	1	S1  
-chr2	100	300	1	S1  
-chr1	200	550	3	S2  
-chr1	750	850	3	S2  
-chr2	100	200	1	S2  
+## Input File Format
+chr1	100	300	0.5	S1  
+chr1	500	600	1.5	S1  
+chr1	700	800	0.5	S1  
+chr2	100	300	0.5	S1  
+chr1	200	550	1.5	S2  
+chr1	750	850	1.5	S2  
+chr2	100	200	0.5	S2  
 
 5 Columns  
 Column 1: chromosome  
